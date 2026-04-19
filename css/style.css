@@ -995,58 +995,61 @@ footer .copy {
 }
 
 @media (max-width: 600px) {
-    header { padding: 12px 16px; }
+    header { padding: 12px 16px; flex-direction: column; gap: 8px; }
     header.scrolled { padding: 10px 16px; }
-    nav { gap: 12px; }
+    nav { gap: 10px; flex-wrap: wrap; justify-content: center; }
     nav a {
-        font-size: 10.5px;
-        letter-spacing: 1.2px;
+        font-size: 10px;
+        letter-spacing: 1px;
         padding: 4px 2px;
     }
-    .logo { font-size: clamp(22px, 5.5vw, 30px); }
+    .logo { font-size: clamp(22px, 5.5vw, 28px); }
 
     .hero .hero-cta { gap: 10px; }
     .btn { padding: 11px 20px; font-size: 11px; letter-spacing: 2px; }
 
-    /* Even on tiny screens we keep 2 columns side by side */
-    .sobre-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
-    .sobre-text h2 { font-size: clamp(22px, 5vw, 30px); }
-    .sobre-text p { font-size: 13px; }
+    /* Stacking columns for better spacing on mobile */
+    .sobre-grid { grid-template-columns: 1fr; gap: 30px; }
+    .sobre-text { text-align: center; }
+    .sobre-text h2 { font-size: clamp(26px, 7vw, 34px); }
+    .sobre-text p { font-size: 14px; }
+    .sobre-image { aspect-ratio: 1/1; order: -1; } /* Image on top */
 
-    .servicos-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
-    .servico { padding: 26px 16px; }
-    .servico h3 { font-size: 17px; }
-    .servico p { font-size: 12px; }
+    .servicos-grid { grid-template-columns: 1fr; gap: 16px; }
+    .servico { padding: 30px 20px; }
+    .servico h3 { font-size: 18px; }
+    .servico p { font-size: 13px; }
 
-    .preview-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; }
-    .preview-grid .tile:nth-child(1) { grid-row: span 2; aspect-ratio: auto; }
+    .preview-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .preview-grid .tile:nth-child(1) { grid-column: span 2; aspect-ratio: 16/9; }
 
-    .galeria { grid-template-columns: repeat(2, 1fr); gap: 12px; }
-    .evento-badge { font-size: 9px; padding: 5px 9px; }
-    .evento-count { font-size: 11px; }
-    .evento-caption { padding: 18px 12px 12px; }
-    .evento-caption h3 { font-size: 15px; }
-    .evento-caption p { font-size: 11px; line-height: 1.4; }
+    .galeria { grid-template-columns: 1fr; gap: 20px; }
+    .evento-badge { font-size: 10px; padding: 6px 10px; }
+    .evento-count { font-size: 12px; }
+    .evento-caption { padding: 20px 16px 16px; }
+    .evento-caption h3 { font-size: 18px; }
+    .evento-caption p { font-size: 13px; line-height: 1.5; }
 
     .gallery-filters button {
-        padding: 8px 14px;
-        font-size: 10px;
-        letter-spacing: 1.5px;
+        padding: 8px 16px;
+        font-size: 11px;
+        letter-spacing: 1px;
     }
 
-    section { padding: 54px 14px; }
+    section { padding: 60px 20px; }
     .container { padding: 0; }
 
-    .whatsapp-float { width: 50px; height: 50px; font-size: 22px; bottom: 16px; right: 16px; }
-    .back-top { width: 42px; height: 42px; font-size: 18px; left: 16px; bottom: 16px; }
+    .whatsapp-float { width: 52px; height: 52px; font-size: 24px; bottom: 20px; right: 20px; }
+    .back-top { width: 44px; height: 44px; font-size: 18px; left: 20px; bottom: 20px; }
 
-    .contato-buttons { gap: 10px; }
-    .btn-contato { padding: 13px 22px; font-size: 11px; letter-spacing: 1.5px; }
-    .contato-info { grid-template-columns: repeat(3, 1fr); gap: 12px; }
-    .contato-info .label { font-size: 9px; letter-spacing: 1.8px; }
-    .contato-info .value { font-size: 12px; }
+    .contato-buttons { gap: 12px; }
+    .btn-contato { padding: 14px 24px; font-size: 12px; letter-spacing: 1px; }
+    .contato-info { grid-template-columns: 1fr; gap: 20px; }
+    .contato-info div { padding: 10px; border-bottom: 1px solid rgba(0,0,0,0.05); }
+    .contato-info .label { font-size: 10px; letter-spacing: 2px; }
+    .contato-info .value { font-size: 14px; }
 
-    footer .foot-sig { font-size: 34px; }
+    footer .foot-sig { font-size: 38px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
