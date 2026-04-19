@@ -2,7 +2,7 @@
 session_start();
 
 // CONFIGURAÇÕES
-$senha_correta = "admin123"; // ALTERE SUA SENHA AQUI
+$senha_correta = "paiçandu12"; // SENHA ATUALIZADA
 $arquivo_dados = "js/dados.json";
 
 // LOGIN
