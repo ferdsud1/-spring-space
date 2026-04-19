@@ -1,0 +1,102 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "slug": "aniversario-50",
+            "title": "50 anos — vitória e gratidão",
+            "category": "aniversario",
+            "badge": "Aniversário",
+            "count": 6,
+            "caption": "Celebramos os 50 anos de uma cliente muito querida. Parabéns pela vitória!"
+        },
+        {
+            "id": 2,
+            "slug": "salao-cenario",
+            "title": "O cenário perfeito",
+            "category": "casamento",
+            "badge": "Salão",
+            "count": 15,
+            "caption": "Cada detalhe desse salão tá impecável — feito para grandes momentos."
+        },
+        {
+            "id": 3,
+            "slug": "noite-inesquecivel",
+            "title": "Uma noite inesquecível",
+            "category": "aniversario",
+            "badge": "Aniversário",
+            "count": 10,
+            "caption": "Cada detalhe pensado com carinho para uma noite cheia de emoção."
+        },
+        {
+            "id": 4,
+            "slug": "sabores",
+            "title": "Sabores inesquecíveis",
+            "category": "aniversario",
+            "badge": "Doces & Mesa",
+            "count": 12,
+            "caption": "Porque uma festa perfeita também tem sabores inesquecíveis."
+        },
+        {
+            "id": 5,
+            "slug": "noite-magica",
+            "title": "Uma noite mágica",
+            "category": "aniversario",
+            "badge": "Aniversário",
+            "count": 6,
+            "caption": "Cheia de encanto, emoção e momentos para guardar para sempre."
+        },
+        {
+            "id": 6,
+            "slug": "amor-existe",
+            "title": "A prova de que o amor existe",
+            "category": "casamento",
+            "badge": "Casamento",
+            "count": 21,
+            "caption": "Hoje não foi só uma festa — foi a certeza de que o amor existe."
+        },
+        {
+            "id": 7,
+            "slug": "historia-de-amor",
+            "title": "Uma história de amor",
+            "category": "casamento",
+            "badge": "Casamento",
+            "count": 18,
+            "caption": "Uma história construída com carinho e amor."
+        },
+        {
+            "id": 8,
+            "slug": "festa-perfeicao",
+            "title": "Festa · Quando tudo se encaixa",
+            "category": "festa",
+            "badge": "Festa",
+            "count": 7,
+            "caption": "Quando tudo se encaixa, o resultado é esse: perfeição 💫"
+        }
+    ],
+    "videos": [
+        {
+            "file": "celebrando.mp4",
+            "poster": "evento6/3.jpg",
+            "title": "Celebração — Melhores Momentos",
+            "category": "casamento"
+        },
+        {
+            "file": "33 anos de amor merecem uma celebração inesquecível! ✨As Bodas de Crizo representam uma história.mp4",
+            "poster": "evento8/1.jpg",
+            "title": "Festa de 33 Anos — Bodas de Crizo",
+            "category": "festa"
+        },
+        {
+            "file": "Um aniversário cheio de sabor e alegria 💕🍔A Ester recebeu seus convidados no seu próprio espaç.mp4",
+            "poster": "evento4/1.jpg",
+            "title": "Aniversário Ester",
+            "category": "aniversario"
+        },
+        {
+            "file": "Uma noite inesquecível para celebrar os 15 anos ✨Cada detalhe preparado com muito carinho para t.mp4",
+            "poster": "evento3/1.jpg",
+            "title": "15 Anos Inesquecíveis",
+            "category": "aniversario"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: main # ou 'master', dependendo do seu GitHub
+
+media_folder: "spring-main/" # Onde as fotos do novo evento serão salvas
+public_folder: "/" # Como o site as acessará
+
+collections:
+  - name: "eventos"
+    label: "Eventos (Fotos)"
+    label_singular: "Evento"
+    files:
+      - file: "spring-main/js/dados.json"
+        label: "Dados do Site"
+        name: "dados"
+        fields:
+          - name: "events"
+            label: "Lista de Eventos"
+            widget: "list"
+            fields:
+              - {label: "ID (Sequencial: 9, 10, 11...)", name: "id", widget: "number"}
+              - {label: "Nome do Evento", name: "title", widget: "string"}
+              - {label: "URL (Ex: festa-juliana)", name: "slug", widget: "string"}
+              - {label: "Categoria", name: "category", widget: "select", options: ["casamento", "aniversario", "festa"]}
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Qtd Fotos", name: "count", widget: "number"}
+              - {label: "Legenda", name: "caption", widget: "text"}
+          - name: "videos"
+            label: "Lista de Vídeos"
+            widget: "list"
+            fields:
+              - {label: "Arquivo (Ex: video.mp4)", name: "file", widget: "string"}
+              - {label: "Capa (Ex: evento1/1.jpg)", name: "poster", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Categoria", name: "category", widget: "select", options: ["casamento", "aniversario", "festa"]}

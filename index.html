@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spring Space · Espaço para eventos inesquecíveis</title>
+<meta name="description" content="Spring Space — um espaço completo e elegante para casamentos, aniversários, festas e celebrações únicas. Transformamos momentos em memórias.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Pinyon+Script&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="site-header">
+    <div class="logo"><a href="index.html">Spring<span class="amp">&amp;</span>Space</a></div>
+    <button class="burger" id="burger" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    <nav id="site-nav">
+        <a href="index.html" class="active">Início</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contato.html">Contato</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-slides" id="hero-slides">
+        <div class="hero-slide active" style="background-image:url('evento1/1.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('evento2/1.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('evento6/1.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('evento7/1.jpg')"></div>
+    </div>
+
+    <div class="hero-content">
+        <span class="kicker">Espaço para eventos</span>
+        <h1 class="brand-signature">Spring<span class="amp">&amp;</span>Space</h1>
+        <p class="tagline">Transformamos momentos em memórias inesquecíveis</p>
+        <div class="hero-cta">
+            <a href="galeria.html" class="btn"><span>Ver galeria</span></a>
+            <a href="contato.html" class="btn btn-solid"><span>Agende uma visita</span></a>
+        </div>
+    </div>
+
+    <div class="scroll-hint">
+        <span>Role</span>
+        <span class="line"></span>
+    </div>
+</section>
+
+<!-- SOBRE -->
+<section class="sobre" id="sobre">
+    <div class="container sobre-grid">
+        <div class="sobre-text reveal">
+            <span class="eyebrow">Sobre nós</span>
+            <h2>Um espaço onde <em>cada detalhe</em> conta uma história</h2>
+            <p>Somos um espaço completo para celebrações que merecem ser lembradas. Do casamento intimista à festa dos sonhos, recebemos você com estrutura, carinho e um olhar atento a cada detalhe.</p>
+            <p>Ambiente elegante, iluminação impecável e uma equipe que acompanha todo o seu evento para que você possa viver o momento — e guardar para sempre.</p>
+        </div>
+        <div class="sobre-image reveal delay-1">
+            <img src="evento3/1.jpg" alt="Salão Spring Space decorado" loading="lazy">
+        </div>
+    </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section class="servicos">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="eyebrow">O que celebramos</span>
+            <h2>Eventos feitos com <em>carinho</em></h2>
+            <p>Cada ocasião pede um cenário à altura. Conheça os tipos de eventos que acontecem no Spring Space.</p>
+        </div>
+
+        <div class="servicos-grid">
+            <div class="servico reveal"><div class="icon">💍</div><h3>Casamentos</h3><p>O lugar perfeito para dizer sim — do civil à cerimônia completa.</p></div>
+            <div class="servico reveal delay-1"><div class="icon">🎂</div><h3>Aniversários</h3><p>De 15 anos a celebrações de vida — celebramos todas as idades.</p></div>
+            <div class="servico reveal delay-2"><div class="icon">🥂</div><h3>Outras Festas</h3><p>Celebre momentos especiais cercado das pessoas que mais ama.</p></div>
+            <div class="servico reveal delay-3"><div class="icon">🎉</div><h3>Festas corporativas</h3><p>Confraternizações, lançamentos e eventos empresariais.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY PREVIEW -->
+<section class="preview" id="preview">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="eyebrow">Galeria</span>
+            <h2>Momentos que aconteceram <em>aqui</em></h2>
+            <p>Uma amostra das celebrações recentes que passaram pelo nosso espaço.</p>
+        </div>
+
+        <div class="preview-grid reveal delay-1">
+            <a class="tile" href="galeria.html"><img src="evento6/2.jpg" alt="Casamento" loading="lazy"></a>
+            <a class="tile" href="galeria.html"><img src="evento1/2.jpg" alt="Aniversário 50 anos" loading="lazy"></a>
+            <a class="tile" href="galeria.html"><img src="evento2/2.jpg" alt="Salão" loading="lazy"></a>
+            <a class="tile" href="galeria.html"><img src="evento4/2.jpg" alt="Doces" loading="lazy"></a>
+            <a class="tile" href="galeria.html"><img src="evento7/2.jpg" alt="Festa" loading="lazy"></a>
+        </div>
+
+        <div class="preview-cta reveal delay-2">
+            <a href="galeria.html" class="btn" style="color:var(--burgundy);border-color:var(--burgundy);"><span>Ver galeria completa</span></a>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" style="--bg:url('evento5/1.jpg');">
+    <div class="container reveal">
+        <h2>Vamos criar <em>a sua</em> celebração?</h2>
+        <p>Converse com a gente, agende uma visita ao espaço e descubra o pacote ideal para o seu evento.</p>
+        <a href="contato.html" class="btn btn-solid"><span>Falar com a equipe</span></a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="foot-sig">Spring<span class="amp">&amp;</span>Space</div>
+    <div class="socials">
+        <a href="https://www.instagram.com/spri.gnspace" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/5518981238921" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p class="copy">© <span id="year">2026</span> Spring Space · Todos os direitos reservados</p>
+</footer>
+
+<a href="https://wa.me/5518981238921" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+<button class="back-top" aria-label="Voltar ao topo" title="Voltar ao topo">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
