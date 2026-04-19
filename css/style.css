@@ -831,6 +831,12 @@ footer .foot-sig {
     line-height: 1;
     margin-bottom: 10px;
 }
+footer .address {
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
 footer .foot-sig .amp { color: var(--gold); }
 footer .socials {
     display: flex;
